@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 10
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Halia", "Halia.vcxproj", "{7CDE1585-5E03-441C-90E1-04CC39B33C0F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HaliaTest", "HaliaTest.vcxproj", "{BD77D2D3-57FB-4B20-86C3-F0FC14299242}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7CDE1585-5E03-441C-90E1-04CC39B33C0F} = {7CDE1585-5E03-441C-90E1-04CC39B33C0F}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CDE1585-5E03-441C-90E1-04CC39B33C0F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7CDE1585-5E03-441C-90E1-04CC39B33C0F}.Debug|Win32.Build.0 = Debug|Win32
+		{7CDE1585-5E03-441C-90E1-04CC39B33C0F}.Release|Win32.ActiveCfg = Release|Win32
+		{7CDE1585-5E03-441C-90E1-04CC39B33C0F}.Release|Win32.Build.0 = Release|Win32
+		{BD77D2D3-57FB-4B20-86C3-F0FC14299242}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BD77D2D3-57FB-4B20-86C3-F0FC14299242}.Debug|Win32.Build.0 = Debug|Win32
+		{BD77D2D3-57FB-4B20-86C3-F0FC14299242}.Release|Win32.ActiveCfg = Release|Win32
+		{BD77D2D3-57FB-4B20-86C3-F0FC14299242}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

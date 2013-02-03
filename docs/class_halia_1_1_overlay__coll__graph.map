@@ -1,0 +1,4 @@
+<area shape="rect" id="node2" href="$class_halia_1_1_event_listener.html" title="A base class used for all objects that can process events from EventDispatcher&#39;s..." alt="" coords="5,302,141,330">
+<area shape="rect" id="node4" href="$class_halia_1_1_event_dispatcher.html" title="A base&#45;class used for any object which can dispatch events." alt="" coords="165,302,317,330">
+<area shape="rect" id="node6" href="$class_halia_1_1_s_l_list.html" title="Halia::SLList\&lt; Listener \&gt;" alt="" coords="159,209,324,237">
+<area shape="rect" id="node8" href="$class_halia_1_1_s_l_list_1_1_entry.html" title="Defines a single linked&#45;list entry." alt="" coords="159,99,324,127">

@@ -1,0 +1,5 @@
+<area shape="rect" id="node2" href="$struct_halia_1_1_blend_mode.html" title="Defines a color or alpha blend&#45;mode for a texture&#45;stage." alt="" coords="5,181,128,209">
+<area shape="rect" id="node4" href="$class_halia_1_1_texture.html" title="A class to represent a single texture, used by the render system during rendering..." alt="" coords="152,181,253,209">
+<area shape="rect" id="node6" href="$class_halia_1_1_render_cached.html" title="A base&#45;class used to represent any object which will be cached by the render&#45;system..." alt="" coords="55,99,199,127">
+<area shape="rect" id="node8" href="$class_halia_1_1_render_cache.html" title="An base&#45;class used to represent arbitrary render&#45;system specific implementations..." alt="" coords="59,6,195,34">
+<area shape="rect" id="node10" href="$class_halia_1_1_smart_ptr.html" title="A base&#45;class for built&#45;in handling of reference counting." alt="" coords="223,99,332,127">

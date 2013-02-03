@@ -1,0 +1,5 @@
+<area shape="rect" id="node2" href="$struct_halia_1_1_event.html" title="Defines the basic properties for all events." alt="" coords="36,395,127,423">
+<area shape="rect" id="node4" href="$class_halia_1_1_smart_ptr.html" title="A base&#45;class for built&#45;in handling of reference counting." alt="" coords="5,302,115,330">
+<area shape="rect" id="node6" href="$class_halia_1_1_event_dispatcher.html" title="A base&#45;class used for any object which can dispatch events." alt="" coords="139,302,291,330">
+<area shape="rect" id="node8" href="$class_halia_1_1_s_l_list.html" title="Halia::SLList\&lt; Listener \&gt;" alt="" coords="132,209,297,237">
+<area shape="rect" id="node10" href="$class_halia_1_1_s_l_list_1_1_entry.html" title="Defines a single linked&#45;list entry." alt="" coords="132,99,297,127">

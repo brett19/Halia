@@ -1,0 +1,10 @@
+<area shape="rect" id="node2" href="$class_halia_1_1_overlay.html" title="A base for all Overlay System objects." alt="" coords="952,51,1053,79">
+<area shape="rect" id="node4" href="$class_halia_1_1_event_listener.html" title="A base class used for all objects that can process events from EventDispatcher&#39;s..." alt="" coords="669,5,805,33">
+<area shape="rect" id="node6" href="$class_halia_1_1_event_dispatcher.html" title="A base&#45;class used for any object which can dispatch events." alt="" coords="661,55,813,83">
+<area shape="rect" id="node8" href="$class_halia_1_1_s_l_list.html" title="Halia::SLList\&lt; Listener \&gt;" alt="" coords="384,55,549,83">
+<area shape="rect" id="node10" href="$class_halia_1_1_s_l_list_1_1_entry.html" title="Defines a single linked&#45;list entry." alt="" coords="123,55,288,83">
+<area shape="rect" id="node21" href="$class_halia_1_1_overlay_texture.html" title="A class for rendering part of a texture for an Overlay." alt="" coords="931,177,1075,205">
+<area shape="rect" id="node24" href="$class_halia_1_1_texture.html" title="A class to represent a single texture, used by the render system during rendering..." alt="" coords="687,223,788,251">
+<area shape="rect" id="node26" href="$class_halia_1_1_render_cached.html" title="A base&#45;class used to represent any object which will be cached by the render&#45;system..." alt="" coords="395,194,539,222">
+<area shape="rect" id="node28" href="$class_halia_1_1_render_cache.html" title="An base&#45;class used to represent arbitrary render&#45;system specific implementations..." alt="" coords="137,194,273,222">
+<area shape="rect" id="node30" href="$class_halia_1_1_smart_ptr.html" title="A base&#45;class for built&#45;in handling of reference counting." alt="" coords="412,245,521,273">

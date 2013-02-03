@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{56ec4b22-d40a-4866-ae93-2c0b627400ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Lists">
+      <UniqueIdentifier>{99cbb384-b5b7-4ea9-9b98-27a9c051784c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Math">
+      <UniqueIdentifier>{238b4fc6-4daa-484c-a3f7-ba1594ee4069}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Networking">
+      <UniqueIdentifier>{19c011cd-49f0-4bda-b669-ce4284d70806}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Threading">
+      <UniqueIdentifier>{ee7137f5-caac-4acf-bfdb-42c00a4bd9b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Event System">
+      <UniqueIdentifier>{c3a29826-c78a-4170-bfea-2c8b21e0f6bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File IO">
+      <UniqueIdentifier>{5eaa93ae-5cd0-4366-adfa-41d3ad5b011e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helpers">
+      <UniqueIdentifier>{d8a0aec3-eebb-426a-95f6-27a6e41cc7a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{0825a775-88cd-4007-a091-294e10182e6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{72c7fda2-da4d-4ef1-8034-a722b293bb7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Overlay">
+      <UniqueIdentifier>{8039b939-dd3f-4eda-b81f-12d5b7c8ecea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{87760cea-181a-4194-b5e1-09c5cb349146}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Index Buffer">
+      <UniqueIdentifier>{f82154db-247e-4c02-9346-6133d70c56a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Material">
+      <UniqueIdentifier>{2c9a9cd7-ce15-4503-b090-cb27193d2a59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Render System">
+      <UniqueIdentifier>{e0a7e62d-83b8-45b7-a808-9e66d5e7bc8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Render System\Renderers">
+      <UniqueIdentifier>{62dbfc22-2141-42d1-9613-78c256ce026a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Render System\Renderers\DirectX 9">
+      <UniqueIdentifier>{b2e8c962-7079-4337-b57a-d0ea0e765e5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Render System\Renderers\OpenGL">
+      <UniqueIdentifier>{fcb8feec-235b-4d8f-bbf1-96ff3304a19b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Shaders">
+      <UniqueIdentifier>{de06a855-e128-416e-bd3c-5996dfa98349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Texture">
+      <UniqueIdentifier>{93fb0948-1c12-4726-9909-d3152acf1bbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Vertex Buffer">
+      <UniqueIdentifier>{c2808273-ce22-4627-adbb-2603eaa1dae4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Vertex Declaration">
+      <UniqueIdentifier>{0d37a458-d3b2-4306-8d2d-9be35a198d3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource System">
+      <UniqueIdentifier>{c58ba4b9-c47a-4759-a57b-8bb60f80ce49}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="halia\ArrList.hpp">
+      <Filter>Core\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\BoundingBox.hpp">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\BoundingSphere.hpp">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\Color.hpp">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\CriticalSection.hpp">
+      <Filter>Core\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\Degree.hpp">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\DX9RenderSystem.hpp">
+      <Filter>Rendering\Render System\Renderers\DirectX 9</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\Event.hpp">
+      <Filter>Core\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\EventDispatcher.hpp">
+      <Filter>Event System</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\EventListener.hpp">
+      <Filter>Event System</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\Events.hpp">
+      <Filter>Event System</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\FileSystem.hpp">
+      <Filter>File IO</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\FileSystemManager.hpp">
+      <Filter>File IO</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\Font.hpp">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\Frustum.hpp">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\GenericIndexBuffer.hpp">
+      <Filter>Rendering\Index Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\GenericVertexBuffer.hpp">
+      <Filter>Rendering\Vertex Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\HaliaApp.hpp">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\Index.hpp">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\IndexBuffer.hpp">
+      <Filter>Rendering\Index Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\InputConstants.hpp">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\InputManager.hpp">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\LogManager.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\Material.hpp">
+      <Filter>Rendering\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\Math.hpp">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\Matrix4.hpp">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\Network.hpp">
+      <Filter>Core\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\Overlay.hpp">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\OverlayImage.hpp">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\OverlayLabel.hpp">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\OverlayRoot.hpp">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\OverlayTexture.hpp">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\Plane.hpp">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\Point.hpp">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\Quarternion.hpp">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\Radian.hpp">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\Range.hpp">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\RenderCache.hpp">
+      <Filter>Rendering\Render System</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\RenderCached.hpp">
+      <Filter>Rendering\Render System</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\RenderSystem.hpp">
+      <Filter>Rendering\Render System</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\Resource.hpp">
+      <Filter>Resource System</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\ResourceGroup.hpp">
+      <Filter>Resource System</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\ResourceManager.hpp">
+      <Filter>Resource System</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\SLList.hpp">
+      <Filter>Core\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\SmartPtr.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\Socket.hpp">
+      <Filter>Core\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\Texture.hpp">
+      <Filter>Rendering\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\TextureStage.hpp">
+      <Filter>Rendering\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\Thread.hpp">
+      <Filter>Core\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\TypedIndexBuffer.hpp">
+      <Filter>Rendering\Index Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\TypedVertexBuffer.hpp">
+      <Filter>Rendering\Vertex Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\Vector2.hpp">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\Vector3.hpp">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\Vector4.hpp">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\VertexBuffer.hpp">
+      <Filter>Rendering\Vertex Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\VertexDeclaration.hpp">
+      <Filter>Rendering\Vertex Declaration</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\VertexElement.hpp">
+      <Filter>Rendering\Vertex Declaration</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\Window.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="halia\WindowsOSFileSystem.hpp">
+      <Filter>File IO</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="halia\BoundingBox.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\BoundingSphere.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\Color.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\Degree.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\DX9RenderSystem.cpp">
+      <Filter>Rendering\Render System\Renderers\DirectX 9</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\EventDispatcher.cpp">
+      <Filter>Event System</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\EventListener.cpp">
+      <Filter>Event System</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\FileSystem.cpp">
+      <Filter>File IO</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\FileSystemManager.cpp">
+      <Filter>File IO</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\Font.cpp">
+      <Filter>Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\Frustum.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\HaliaApp.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\InputManager.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\LogManager.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\Math.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\Matrix4.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\Network.cpp">
+      <Filter>Core\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\Overlay.cpp">
+      <Filter>Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\OverlayImage.cpp">
+      <Filter>Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\OverlayLabel.cpp">
+      <Filter>Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\OverlayRoot.cpp">
+      <Filter>Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\Plane.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\Point.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\Quarternion.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\Radian.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\Range.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\RenderCache.cpp">
+      <Filter>Rendering\Render System</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\RenderCached.cpp">
+      <Filter>Rendering\Render System</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\RenderSystem.cpp">
+      <Filter>Rendering\Render System</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\Resource.cpp">
+      <Filter>Resource System</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\ResourceGroup.cpp">
+      <Filter>Resource System</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\ResourceManager.cpp">
+      <Filter>Resource System</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\Vector2.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\Vector3.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\Vector4.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\VertexDeclaration.cpp">
+      <Filter>Rendering\Vertex Declaration</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\Window.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="halia\WindowsOSFileSystem.cpp">
+      <Filter>File IO</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

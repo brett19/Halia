@@ -1,0 +1,17 @@
+<area shape="rect" id="node1" href="$class_halia_1_1_render_cached.html" title="A base&#45;class used to represent any object which will be cached by the render&#45;system..." alt="" coords="5,131,149,159">
+<area shape="rect" id="node3" href="$class_halia_1_1_index_buffer.html" title="An interface for the index buffers." alt="" coords="217,55,340,83">
+<area shape="rect" id="node9" href="$class_halia_1_1_texture.html" title="A class to represent a single texture, used by the render system during rendering..." alt="" coords="228,207,329,235">
+<area shape="rect" id="node13" href="$class_halia_1_1_vertex_buffer.html" title="An interface for the vertex buffers." alt="" coords="215,106,343,134">
+<area shape="rect" id="node19" href="$class_halia_1_1_vertex_declaration.html" title="A vertex declaration used by the render&#45;system to define the format of a vertex buffer..." alt="" coords="199,157,359,185">
+<area shape="rect" id="node5" href="$class_halia_1_1_generic_index_buffer.html" title="A class to allow generic access to index memory." alt="" coords="423,55,591,83">
+<area shape="rect" id="node7" href="$class_halia_1_1_typed_index_buffer.html" title="A class that allows per&#45;index insertion, deletion and access to the index buffer..." alt="" coords="413,5,600,33">
+<area shape="rect" id="node11" href="$class_halia_1_1_file_texture.html" title="A class to simplify loading of a texture." alt="" coords="445,207,568,235">
+<area shape="rect" id="node15" href="$class_halia_1_1_generic_vertex_buffer.html" title="A class to allow generic access to vertex memory." alt="" coords="420,157,593,185">
+<area shape="rect" id="node17" href="$class_halia_1_1_typed_vertex_buffer.html" title="A class that allows per&#45;vertex insertion, deletion and access to the vertex buffer..." alt="" coords="409,106,604,134">
+<area shape="rect" id="node20" href="$class_halia_1_1_smart_ptr.html" title="A base&#45;class for built&#45;in handling of reference counting." alt="" coords="23,233,132,261">
+<area shape="rect" id="node22" href="$struct_halia_1_1_event.html" title="Defines the basic properties for all events." alt="" coords="233,334,324,362">
+<area shape="rect" id="node30" href="$class_halia_1_1_resource.html" title="A base&#45;class used by the resource manager to load and unload resources on the fly..." alt="" coords="223,258,335,286">
+<area shape="rect" id="node24" href="$struct_halia_1_1_error_event.html" title="Defines an event which includes an error code and text." alt="" coords="448,309,565,337">
+<area shape="rect" id="node26" href="$struct_halia_1_1_key_event.html" title="Defines an event which inclues a keycode." alt="" coords="451,359,563,387">
+<area shape="rect" id="node28" href="$struct_halia_1_1_pos_event.html" title="Defines an event which includes a position." alt="" coords="451,410,563,438">
+<area shape="rect" id="node32" href="$class_halia_1_1_resource_group.html" title="Defines a group of resources to be loaded and unloaded together." alt="" coords="433,258,580,286">

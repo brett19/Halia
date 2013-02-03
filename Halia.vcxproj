@@ -1,0 +1,170 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{7CDE1585-5E03-441C-90E1-04CC39B33C0F}</ProjectGUID>
+    <RootNamespace>Halia</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(LocalAppData)\Microsoft\VisualStudio\10.0\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(LocalAppData)\Microsoft\VisualStudio\10.0\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <ProgramDataBaseFileName>$(IntDir)halia.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="halia\ArrList.hpp" />
+    <ClInclude Include="halia\BoundingBox.hpp" />
+    <ClInclude Include="halia\BoundingSphere.hpp" />
+    <ClInclude Include="halia\Color.hpp" />
+    <ClInclude Include="halia\CriticalSection.hpp" />
+    <ClInclude Include="halia\Degree.hpp" />
+    <ClInclude Include="halia\DX9RenderSystem.hpp" />
+    <ClInclude Include="halia\Event.hpp" />
+    <ClInclude Include="halia\EventDispatcher.hpp" />
+    <ClInclude Include="halia\EventListener.hpp" />
+    <ClInclude Include="halia\Events.hpp" />
+    <ClInclude Include="halia\FileSystem.hpp" />
+    <ClInclude Include="halia\FileSystemManager.hpp" />
+    <ClInclude Include="halia\Font.hpp" />
+    <ClInclude Include="halia\Frustum.hpp" />
+    <ClInclude Include="halia\GenericIndexBuffer.hpp" />
+    <ClInclude Include="halia\GenericVertexBuffer.hpp" />
+    <ClInclude Include="halia\Halia.hpp" />
+    <ClInclude Include="halia\HaliaApp.hpp" />
+    <ClInclude Include="halia\Index.hpp" />
+    <ClInclude Include="halia\IndexBuffer.hpp" />
+    <ClInclude Include="halia\InputConstants.hpp" />
+    <ClInclude Include="halia\InputManager.hpp" />
+    <ClInclude Include="halia\LogManager.hpp" />
+    <ClInclude Include="halia\Material.hpp" />
+    <ClInclude Include="halia\Math.hpp" />
+    <ClInclude Include="halia\Matrix4.hpp" />
+    <ClInclude Include="halia\Network.hpp" />
+    <ClInclude Include="halia\Overlay.hpp" />
+    <ClInclude Include="halia\OverlayImage.hpp" />
+    <ClInclude Include="halia\OverlayLabel.hpp" />
+    <ClInclude Include="halia\OverlayRoot.hpp" />
+    <ClInclude Include="halia\OverlayTexture.hpp" />
+    <ClInclude Include="halia\Plane.hpp" />
+    <ClInclude Include="halia\Point.hpp" />
+    <ClInclude Include="halia\Quarternion.hpp" />
+    <ClInclude Include="halia\Radian.hpp" />
+    <ClInclude Include="halia\Range.hpp" />
+    <ClInclude Include="halia\RenderCache.hpp" />
+    <ClInclude Include="halia\RenderCached.hpp" />
+    <ClInclude Include="halia\RenderSystem.hpp" />
+    <ClInclude Include="halia\Resource.hpp" />
+    <ClInclude Include="halia\ResourceGroup.hpp" />
+    <ClInclude Include="halia\ResourceManager.hpp" />
+    <ClInclude Include="halia\SLList.hpp" />
+    <ClInclude Include="halia\SmartPtr.hpp" />
+    <ClInclude Include="halia\Socket.hpp" />
+    <ClInclude Include="halia\Texture.hpp" />
+    <ClInclude Include="halia\TextureStage.hpp" />
+    <ClInclude Include="halia\Thread.hpp" />
+    <ClInclude Include="halia\TypedIndexBuffer.hpp" />
+    <ClInclude Include="halia\TypedVertexBuffer.hpp" />
+    <ClInclude Include="halia\Vector2.hpp" />
+    <ClInclude Include="halia\Vector3.hpp" />
+    <ClInclude Include="halia\Vector4.hpp" />
+    <ClInclude Include="halia\VertexBuffer.hpp" />
+    <ClInclude Include="halia\VertexDeclaration.hpp" />
+    <ClInclude Include="halia\VertexElement.hpp" />
+    <ClInclude Include="halia\Window.hpp" />
+    <ClInclude Include="halia\WindowsOSFileSystem.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="halia\BoundingBox.cpp" />
+    <ClCompile Include="halia\BoundingSphere.cpp" />
+    <ClCompile Include="halia\Color.cpp" />
+    <ClCompile Include="halia\Degree.cpp" />
+    <ClCompile Include="halia\DX9RenderSystem.cpp" />
+    <ClCompile Include="halia\EventDispatcher.cpp" />
+    <ClCompile Include="halia\EventListener.cpp" />
+    <ClCompile Include="halia\FileSystem.cpp" />
+    <ClCompile Include="halia\FileSystemManager.cpp" />
+    <ClCompile Include="halia\Font.cpp" />
+    <ClCompile Include="halia\Frustum.cpp" />
+    <ClCompile Include="halia\Halia.cpp" />
+    <ClCompile Include="halia\HaliaApp.cpp" />
+    <ClCompile Include="halia\InputManager.cpp" />
+    <ClCompile Include="halia\LogManager.cpp" />
+    <ClCompile Include="halia\Math.cpp" />
+    <ClCompile Include="halia\Matrix4.cpp" />
+    <ClCompile Include="halia\Network.cpp" />
+    <ClCompile Include="halia\Overlay.cpp" />
+    <ClCompile Include="halia\OverlayImage.cpp" />
+    <ClCompile Include="halia\OverlayLabel.cpp" />
+    <ClCompile Include="halia\OverlayRoot.cpp" />
+    <ClCompile Include="halia\Plane.cpp" />
+    <ClCompile Include="halia\Point.cpp" />
+    <ClCompile Include="halia\Quarternion.cpp" />
+    <ClCompile Include="halia\Radian.cpp" />
+    <ClCompile Include="halia\Range.cpp" />
+    <ClCompile Include="halia\RenderCache.cpp" />
+    <ClCompile Include="halia\RenderCached.cpp" />
+    <ClCompile Include="halia\RenderSystem.cpp" />
+    <ClCompile Include="halia\Resource.cpp" />
+    <ClCompile Include="halia\ResourceGroup.cpp" />
+    <ClCompile Include="halia\ResourceManager.cpp" />
+    <ClCompile Include="halia\Vector2.cpp" />
+    <ClCompile Include="halia\Vector3.cpp" />
+    <ClCompile Include="halia\Vector4.cpp" />
+    <ClCompile Include="halia\VertexDeclaration.cpp" />
+    <ClCompile Include="halia\Window.cpp" />
+    <ClCompile Include="halia\WindowsOSFileSystem.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
